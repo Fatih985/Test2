@@ -1,0 +1,137 @@
+/* Allgemeine Reset-Regeln */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Grundlegende Schriftarten und Farben */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+header .logo p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Hero-Bereich */
+.hero {
+    background: url('salon.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Leistungen */
+#services {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1.1rem;
+}
+
+/* Galerie */
+#gallery {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.images img {
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Kontakt */
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
